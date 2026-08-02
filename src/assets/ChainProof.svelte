@@ -1,0 +1,24 @@
+<script lang="ts">
+    import type { SVGAttributes } from 'svelte/elements'
+
+    let {
+        class: className = '',
+        ...rest
+    }: SVGAttributes<SVGSVGElement> = $props()
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     aria-hidden="true"
+     class={className}
+     {...rest}>
+    <g transform="rotate(-45 12 12)">
+        <rect x="2.5" y="9" width="10" height="6" rx="3"></rect>
+        <rect x="11.5" y="9" width="10" height="6" rx="3"></rect>
+    </g>
+</svg>
