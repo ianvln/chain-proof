@@ -38,10 +38,7 @@
           GitHub or Azure DevOps pipelines—without slowing down your developers.
         </p>
         <div class="mt-8 flex flex-col sm:flex-row gap-3">
-          <button
-            type="button"
-            class="button-primary"
-          >
+          <button type="button" class="button-primary">
             <Calendar class="lucide lucide-calendar w-4.5 h-4.5" />
             Schedule a call
           </button>
@@ -70,17 +67,3 @@
     </div>
   </Background>
 </main>
-
-<section id="center">
-  <div class="hero">
-    <img src={heroImg} class="base" width="170" height="179" alt="" />
-    <img src={viteLogo} class="vite" alt="Vite logo" />
-  </div>
-  <div>
-    <h1>Get started</h1>
-    <p>Edit <code>src/App.svelte</code> and save to test <code>HMR</code></p>
-  </div>
-</section>
-
-<div class="ticks"></div>
-<section id="spacer"></section>
