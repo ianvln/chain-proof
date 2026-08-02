@@ -1,5 +1,5 @@
 <script>
-  import ChainProof from "../assets/ChainProof.svelte";
+  import ChainProof from "../../assets/ChainProof.svelte";
 </script>
 
 <a href="/" class="flex items-center gap-2.5 group">

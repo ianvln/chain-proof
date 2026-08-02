@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Boxes from "../assets/Boxes.svelte";
-  import ChainProof from "../assets/ChainProof.svelte";
-  import ShieldCheck from "../assets/ShieldCheck.svelte";
-  import SectionHeading from "./SectionHeading.svelte";
+  import Boxes from "../../../assets/Boxes.svelte";
+  import ChainProof from "../../../assets/ChainProof.svelte";
+  import ShieldCheck from "../../../assets/ShieldCheck.svelte";
+  import SectionHeading from "../../shared/SectionHeading.svelte";
 
   const pains = [
     { title: "Increasing NIS2 Pressure", body: "Enterprise clients and auditors demand proof of software supply chain security and CycloneDX SBOMs.", icon: ShieldCheck },

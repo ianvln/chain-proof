@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Boxes from "../assets/Boxes.svelte";
-  import FileText from "../assets/FileText.svelte";
-  import GitBranch from "../assets/GitBranch.svelte";
-  import ShieldCheck from "../assets/ShieldCheck.svelte";
+  import Boxes from "../../../assets/Boxes.svelte";
+  import FileText from "../../../assets/FileText.svelte";
+  import GitBranch from "../../../assets/GitBranch.svelte";
+  import ShieldCheck from "../../../assets/ShieldCheck.svelte";
   import RoadmapStep from "./RoadmapStep.svelte";
-  import SectionHeading from "./SectionHeading.svelte";
+  import SectionHeading from "../../shared/SectionHeading.svelte";
 
   const steps = [
     { day: "DAY 1", title: "Discovery & Codebase Healthcheck", icon: FileText, points: ["Kick-off call with your engineering team.", "Deep-dive audit of your current CI/CD pipelines, .NET solution, NuGet packages, and Dockerfiles."], output: "Baseline Security Health Report & Action Plan.", code: "$ nexus-sec scan --solution ./src/\n> analyzing 142 NuGet packages\n> 3 Dockerfiles inspected\n> baseline report generated ✓" },

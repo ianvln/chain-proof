@@ -1,9 +1,9 @@
 <script>
-  import GitBranch from "../assets/GitBranch.svelte";
-  import ShieldCheck from "../assets/ShieldCheck.svelte";
-  import Boxes from "../assets/Boxes.svelte";
-  import FileText from "../assets/FileText.svelte";
-  import CircleCheck from "../assets/CircleCheck.svelte";
+  import GitBranch from "../../../assets/GitBranch.svelte";
+  import ShieldCheck from "../../../assets/ShieldCheck.svelte";
+  import Boxes from "../../../assets/Boxes.svelte";
+  import FileText from "../../../assets/FileText.svelte";
+  import CircleCheck from "../../../assets/CircleCheck.svelte";
 </script>
 
 <div class="relative">

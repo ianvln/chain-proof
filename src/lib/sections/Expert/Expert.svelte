@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ShieldCheck from "../assets/ShieldCheck.svelte";
+  import ShieldCheck from "../../../assets/ShieldCheck.svelte";
   const stack = [".NET 8", "C#", "OpenShift", "Kubernetes", "Docker", "SonarQube", "Trivy", "GitHub Actions", "Azure DevOps"];
   const portrait = "https://media.base44.com/images/public/6a6e4918c4f3bf01167bbd7c/f98bb6ea0_generated_0afa9e34.png/v1/fill/w_382,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_webp,quality_auto/f98bb6ea0_generated_0afa9e34.webp";
 </script>

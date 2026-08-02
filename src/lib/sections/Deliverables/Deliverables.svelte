@@ -1,9 +1,9 @@
 <script lang="ts">
-  import Boxes from "../assets/Boxes.svelte";
-  import CircleCheck from "../assets/CircleCheck.svelte";
-  import FileText from "../assets/FileText.svelte";
+  import Boxes from "../../../assets/Boxes.svelte";
+  import CircleCheck from "../../../assets/CircleCheck.svelte";
+  import FileText from "../../../assets/FileText.svelte";
   import DeliverableCard from "./DeliverableCard.svelte";
-  import SectionHeading from "./SectionHeading.svelte";
+  import SectionHeading from "../../shared/SectionHeading.svelte";
 
   const items = [
     { title: "Reusable YAML Workflows", sub: "GitHub Actions / Azure DevOps scripts", asset: "asset_01.delivered", icon: FileText },
