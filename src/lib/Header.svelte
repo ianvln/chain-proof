@@ -1,5 +1,6 @@
 <script>
   import ChainProofLogo from "../assets/ChainProof.svelte";
+  import Navigation from "./Navigation.svelte";
 </script>
 
 <header
@@ -21,6 +22,7 @@
             >Chain<span class="text-emerald-400">Proof</span>
           </span>
         </a>
+        <Navigation />
       </div>
     </div>
   </div>
