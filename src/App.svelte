@@ -38,13 +38,13 @@
           GitHub or Azure DevOps pipelines—without slowing down your developers.
         </p>
         <div class="mt-8 flex flex-col sm:flex-row gap-3">
-          <a
-            href="#contact"
-            class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-emerald-500 text-slate-950 font-semibold hover:bg-emerald-400 transition-colors glow-emerald"
+          <button
+            type="button"
+            class="button-primary"
           >
             <Calendar class="lucide lucide-calendar w-4.5 h-4.5" />
             Schedule a call
-          </a>
+          </button>
           <a
             href="#roadmap"
             class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg border border-slate-700 text-slate-200 font-semibold hover:border-emerald-500/50 hover:text-emerald-400 transition-colors"

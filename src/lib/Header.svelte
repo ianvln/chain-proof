@@ -1,6 +1,6 @@
 <script>
-  import ChainProofLogo from "../assets/ChainProof.svelte";
   import Navigation from "./Navigation.svelte";
+  import ChainProof from "../assets/ChainProof.svelte";
 </script>
 
 <header
@@ -10,7 +10,7 @@
     <div class="max-w-[90rem] mx-auto px-6 lg:px-10">
       <div class="flex items-center justify-between h-16">
         <a href="/" class="flex items-center gap-2.5 group">
-          <ChainProofLogo
+          <ChainProof
             class="w-6 h-6 text-emerald-400"
             aria-label="ChainProof logo"
           />
@@ -23,6 +23,9 @@
           </span>
         </a>
         <Navigation />
+        <div>
+          <button type="button" class="button-primary"> Book a call </button>
+        </div>
       </div>
     </div>
   </div>

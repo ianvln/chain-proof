@@ -23,6 +23,13 @@
   background-size: 48px 48px;
 }
 
+@layer components {
+  .button-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-emerald-500 text-slate-950 font-semibold hover:bg-emerald-400 transition-colors;
+    box-shadow: 0 0 20px rgb(16 185 129 / 0.25);
+  }
+}
+
 body {
   @apply min-h-screen bg-slate-950 text-slate-100;
 }
