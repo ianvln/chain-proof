@@ -1,5 +1,5 @@
 <script lang="ts">
-  import headshot from "../../../assets/headshot.jpg";
+  import headshot from "../../../assets/headshot.jpeg";
   import ShieldCheck from "../../../assets/ShieldCheck.svelte";
   const stack = [
     ".NET 8",
