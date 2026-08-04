@@ -6,6 +6,7 @@
   import Partnership from "./lib/sections/Partnership/Partnership.svelte";
   import PainPoints from "./lib/sections/PainPoints/PainPoints.svelte";
   import Roadmap from "./lib/sections/Roadmap/Roadmap.svelte";
+  import Footer from "./lib/layout/Footer.svelte";
 </script>
 
 <Header />
@@ -18,3 +19,5 @@
   <Deliverables />
   <Expert />
 </main>
+
+<Footer />
