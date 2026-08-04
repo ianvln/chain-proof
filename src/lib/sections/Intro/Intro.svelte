@@ -5,7 +5,9 @@
   import Calendar from "../../../assets/Calendar.svelte";
 </script>
 
-<section class="relative overflow-hidden pt-32 pb-24 lg:pt-40 lg:pb-32">
+<section
+  class="relative overflow-hidden pt-16 md:pt-32 pb-24 lg:pt-40 lg:pb-32"
+>
   <div class="absolute inset-0 grid-bg opacity-40"></div>
   <div
     class="absolute inset-0 bg-gradient-to-b from-slate-950 via-transparent to-slate-950"

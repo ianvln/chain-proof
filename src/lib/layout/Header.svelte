@@ -25,20 +25,16 @@
       : "bg-transparent border-b border-transparent"
   }`}
 >
-  <div class="max-w-[90rem] mx-auto px-6 lg:px-10">
-    <div class="max-w-[90rem] mx-auto px-6 lg:px-10">
-      <div class="flex items-center justify-between h-16">
-        <HomeButton />
-        <Navigation />
-        <div>
-          <a
-            href={`mailto:${contact.email}`}
-            class="hidden md:inline-flex items-center px-4 py-2 rounded-md bg-emerald-500 text-slate-950 text-sm font-semibold hover:bg-emerald-400 transition-colors"
-          >
-            Book a call
-          </a>
-        </div>
-      </div>
+  <div class="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+    <div class="flex items-center justify-between h-16">
+      <HomeButton />
+      <Navigation />
+      <a
+        href={`mailto:${contact.email}`}
+        class="hidden md:inline-flex items-center px-4 py-2 rounded-md bg-emerald-500 text-slate-950 text-sm font-semibold hover:bg-emerald-400 transition-colors"
+      >
+        Book a call
+      </a>
     </div>
   </div>
 </header>
