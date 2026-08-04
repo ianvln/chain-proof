@@ -1,5 +1,5 @@
 <script lang="ts">
-  import headshot from "../../../assets/headshot.jpeg";
+  import headshot from "../../../assets/headshot.jpg";
   import ShieldCheck from "../../../assets/ShieldCheck.svelte";
   const stack = [
     ".NET 8",
@@ -73,16 +73,15 @@
         <h2
           class="mt-3 text-3xl sm:text-4xl font-black tracking-tight text-slate-50"
         >
-          Architected by Enterprise Security Specialists
+          Architected by Enterprise Security Specialist
         </h2>
         <p class="mt-5 text-lg text-slate-300 leading-relaxed">
-          Lead by <span class="text-emerald-400 font-semibold"
-            >Ian Vermeulen</span
-          >, Senior .NET Engineer &amp; Security Architect.
+          <span class="text-emerald-400 font-semibold">Ian Vermeulen</span>,
+          Senior .NET Engineer &amp; Security Architect.
         </p>
         <p class="mt-4 text-slate-400 leading-relaxed">
           Ex-KPMG Advisory background combined with hands-on critical
-          infrastructure development at the National Bank of Belgium (NBB).
+          infrastructure development in multiple environments.
         </p>
         <div class="mt-8">
           <div
