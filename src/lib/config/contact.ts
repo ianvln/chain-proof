@@ -1,3 +1,3 @@
 export const contact = {
-  email: "ian@engiflex.com",
+  email: "ian@chainproof.be",
 } as const;
