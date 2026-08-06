@@ -2,8 +2,10 @@
   import headshot from "../../../assets/headshot.jpg";
   import ShieldCheck from "../../../assets/ShieldCheck.svelte";
   const stack = [
-    ".NET 8",
     "C#",
+    "ASP.NET",
+    "Java",
+    "Spring Boot",
     "OpenShift",
     "Kubernetes",
     "Docker",
@@ -33,7 +35,7 @@
                 src={headshot}
                 loading="lazy"
                 class="w-full h-full inset-0 absolute object-cover"
-                alt="Ian Vermeulen, Senior .NET Engineer &amp; Security Architect"
+                alt="Ian Vermeulen, Senior Software Engineer &amp; AppSec Specialist"
               />
               <div
                 class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"
@@ -57,7 +59,7 @@
                 <div
                   class="font-mono text-[10px] text-emerald-400 uppercase tracking-widest mb-0.5"
                 >
-                  Security Architect
+                  AppSec Specialist
                 </div>
                 <div class="text-xl font-bold text-slate-50">Ian Vermeulen</div>
               </div>
@@ -77,7 +79,7 @@
         </h2>
         <p class="mt-5 text-lg text-slate-300 leading-relaxed">
           <span class="text-emerald-400 font-semibold">Ian Vermeulen</span>,
-          Senior .NET Engineer &amp; Security Architect.
+          Senior Software Engineer &amp; AppSec Specialist.
         </p>
         <p class="mt-4 text-slate-400 leading-relaxed">
           Ex-KPMG Advisory background combined with hands-on critical

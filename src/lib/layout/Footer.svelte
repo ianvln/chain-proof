@@ -9,7 +9,7 @@
         <div>
           <HomeButton />
           <p class="text-sm text-slate-500 leading-relaxed">
-            Turnkey DevSecOps &amp; NIS2 software supply chain security for .NET
+            Turnkey DevSecOps &amp; NIS2 software supply chain security for
             applications.
           </p>
         </div>
@@ -64,14 +64,14 @@
             <div
               class="flex items-center gap-2 font-mono text-xs text-slate-500"
             >
-              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span
-              >pipeline: operational
+              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"
+              ></span>pipeline: operational
             </div>
             <div
               class="flex items-center gap-2 font-mono text-xs text-slate-500"
             >
-              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></span
-              >compliance: NIS2-ready
+              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full"
+              ></span>compliance: NIS2-ready
             </div>
             <div
               class="flex items-center gap-2 font-mono text-xs text-slate-500"

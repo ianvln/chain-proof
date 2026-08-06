@@ -28,7 +28,7 @@
             class="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse-dot"
           ></span>
           <span class="font-mono text-xs text-slate-300"
-            >For .NET &amp; Cloud Development Teams</span
+            >For Development Teams</span
           >
         </div>
         <h1

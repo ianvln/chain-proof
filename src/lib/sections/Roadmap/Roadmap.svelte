@@ -13,10 +13,10 @@
       icon: FileText,
       points: [
         "Kick-off call with your engineering team.",
-        "Deep-dive audit of your current CI/CD pipelines, .NET solution, NuGet packages, and Dockerfiles.",
+        "Deep-dive audit of your current CI/CD pipelines, software solution, packages, and Dockerfiles.",
       ],
       output: "Baseline Security Health Report & Action Plan.",
-      code: "$ chain-proof-sec scan --solution ./src/\n> analyzing 142 NuGet packages\n> 3 Dockerfiles inspected\n> baseline report generated ✓",
+      code: "$ chain-proof-sec scan --solution ./src/\n> analyzing 142 packages\n> 3 Dockerfiles inspected\n> baseline report generated ✓",
     },
     {
       day: "DAY 2",
