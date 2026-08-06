@@ -70,12 +70,12 @@
       <div class="lg:col-span-3">
         <span
           class="font-mono text-xs text-emerald-400 uppercase tracking-widest"
-          >// the architect</span
+          >// the specialist</span
         >
         <h2
           class="mt-3 text-3xl sm:text-4xl font-black tracking-tight text-slate-50"
         >
-          Architected by Enterprise Security Specialist
+          Engineered by an Enterprise AppSec Specialist
         </h2>
         <p class="mt-5 text-lg text-slate-300 leading-relaxed">
           <span class="text-emerald-400 font-semibold">Ian Vermeulen</span>,
