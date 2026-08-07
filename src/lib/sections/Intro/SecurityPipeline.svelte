@@ -15,7 +15,7 @@
       class="relative rounded-xl border border-slate-700/80 bg-slate-900/80 backdrop-blur-xl overflow-hidden shadow-2xl"
     >
       <div
-        class="flex items-center justify-between px-4 py-3 border-b border-slate-800 bg-slate-950/60"
+        class="flex items-center justify-between flex-wrap gap-y-4 px-4 py-3 border-b border-slate-800 bg-slate-950/60"
       >
         <div class="flex items-center gap-2">
           <span class="w-3 h-3 rounded-full bg-red-500/80"></span><span
