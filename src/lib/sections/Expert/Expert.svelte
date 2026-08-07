@@ -11,6 +11,7 @@
     "Docker",
     "SonarQube",
     "Trivy",
+    "Jenkins",
     "GitHub Actions",
     "Azure DevOps",
   ];
