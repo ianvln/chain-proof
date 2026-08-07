@@ -41,7 +41,8 @@
         <p class="mt-6 text-lg text-slate-400 leading-relaxed max-w-xl">
           Stop worrying about client security audits. We integrate automated
           SAST, SBOM generation, and container scanning directly into your
-          GitHub or Azure DevOps pipelines—without slowing down your developers.
+          Jenkins, GitHub or Azure DevOps pipelines—without slowing down your
+          developers.
         </p>
         <div class="mt-8 flex flex-col sm:flex-row gap-3">
           <a href={`mailto:${contact.email}`} class="button-primary"
